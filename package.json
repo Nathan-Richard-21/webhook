@@ -1,0 +1,17 @@
+{
+  "name": "infinity-cybertech-webhook",
+  "version": "1.0.0",
+  "description": "Railway webhook server for push notifications",
+  "main": "railway-server.js",
+  "scripts": {
+    "start": "node railway-server.js",
+    "dev": "nodemon railway-server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.7"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
